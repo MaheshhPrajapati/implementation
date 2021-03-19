@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    
+}
+
+div{
+    display: inline-block;
+}
+
+body{
+    font-family: 'lato', Arial, Helvetica, sans-serif;
+    .container-fluid{
+        padding: 3rem 4.9rem;
+    }
+    .box{
+        display: inline-block;
+        height: 230px;
+        width: 260px;
+        box-shadow: 3px 3px 3px 3px rgb(214, 214, 214);
+        border-radius: 25px;
+        text-align: center;
+        margin-bottom: 2rem;
+        margin-right: 2rem;
+    }
+    .div-2{
+        display: inline-block;
+    }
+    img{
+        height: 150px;
+        width: 250px;
+        z-index: -1;
+        border-radius: 25px;
+
+    }
+    h1{
+        padding-top: .5rem;
+        z-index: +1;
+        font-size: 1.5rem;
+    }
+    p.padding-bottom{
+        position: relative;
+        bottom: .8rem;
+    }
+    .inOneLine{
+        display: inline-block;
+    }
+}
